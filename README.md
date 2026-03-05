@@ -32,6 +32,7 @@ Virtual Machines:
 
 Network topology:
 
+```
 Arch Linux Host
 │
 ├── Ubuntu Server (Wazuh SIEM)
@@ -39,6 +40,7 @@ Arch Linux Host
 │
 └── Kali Linux (Attacker)
     └── 192.168.122.X
+```
 
 Both machines communicate through a NAT network created by libvirt.
 
@@ -95,7 +97,6 @@ setup/
 networking/
 troubleshooting/
 labs/
-
 
 ---
 
